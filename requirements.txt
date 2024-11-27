@@ -1,0 +1,17 @@
+# requirements.txt
+#python==3.9
+
+# Requisitos para web scraping
+beautifulsoup4==4.12.3  # Parsing HTML e XML
+requests==2.31.0        # Requisições HTTP simples
+lxml==4.9.3             # Parsing rápido de HTML e XML
+selenium==4.15.2        # Automação de navegadores para scraping dinâmico
+
+# Requisitos para API REST
+fastapi==0.100.0        # Framework para criar APIs REST
+uvicorn==0.22.0         # Servidor ASGI para rodar a aplicação
+
+# Requisitos para validação de dados e outros utilitários
+pydantic==2.3.0         # Schemas para validação de dados na API
+httpx==0.24.1           # Cliente HTTP assíncrono (opcional, útil para consumo de APIs externas)
+
