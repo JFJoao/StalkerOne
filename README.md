@@ -1,3 +1,30 @@
+## Como Clonar o Repositório
+
+Siga os passos abaixo para clonar este repositório em sua máquina local:
+
+1. **Certifique-se de que o Git está instalado**:
+   - Verifique se o Git está instalado rodando o comando:
+     ```bash
+     git --version
+     ```
+   - Caso não esteja instalado, você pode baixá-lo [aqui](https://git-scm.com/downloads).
+
+2. **Clone o repositório**:
+   - Execute o seguinte comando no terminal, no diretório que receberá o projeto:
+     ```bash
+     git clone https://github.com/JFJoao/StalkerOne.git
+     ```
+
+3. **Acesse o diretório do projeto**:
+   - Após clonar o repositório, navegue até o diretório do projeto:
+     ```bash
+     cd StalkerOne
+     ```
+
+Agora você tem o repositório clonado em sua máquina e pode começar a trabalhar no projeto! 🎉
+
+
+## Estrutura
 ```
 my_python_api/
 ├── app/
@@ -15,7 +42,7 @@ my_python_api/
 └── README.md               # Documentação do projeto
 ```
 
-Para instalar o pacote de requerimentos.txt
+## Instalar o pacote de requerimentos.txt
 
 ```dos
 pip install -r requirements.txt
